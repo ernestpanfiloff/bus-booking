@@ -29,10 +29,6 @@ public class PassengerService {
         return repository.findById(passenger_id).orElse(null);
     }
 
-    // public Passenger getPassengerByName(String passenger_name) {
-    //     return repository.findByPassengerName(passenger_name);
-    // }
-
     public String deletePassenger(int passenger_id) {
         repository.deleteById(passenger_id);
         return "Passenger (ID: " + passenger_id + ") has been deleted!";

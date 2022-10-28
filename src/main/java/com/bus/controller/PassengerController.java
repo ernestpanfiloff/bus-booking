@@ -14,12 +14,14 @@ public class PassengerController {
     private PassengerService service;
 
 
-    // Add Passenger or Multiple Passengers
+    // Add a Passenger
     @PostMapping("/addPassenger")
     public Passenger addPassenger(@RequestBody Passenger passenger) {
         return service.savePassenger(passenger);
     }
 
+
+    // Add multiple Passengers
     @PostMapping("/addPassengers")
     public List<Passenger> addPassengers(@RequestBody List<Passenger> passengers) {
         return service.savePassengers(passengers);
@@ -39,16 +41,16 @@ public class PassengerController {
         return service.getPassengerById(passenger_id);
     }
 
-    // @GetMapping("/passengerByName/{passenger_name}")
-    // public Passenger findPassengerByName(@PathVariable String passenger_name) {
-    //     return service.getPassengerByName(passenger_name);
-    // }
 
+    // Change Passenger Details
     @PutMapping("/update")
     public Passenger updatePassenger(@RequestBody Passenger passenger) {
         return service.updatePassenger(passenger);
     }
 
+
+
+    // Delete Passenger by ID
     @DeleteMapping("/delete/{passenger_id}")
     public String deletePassenger(@PathVariable int passenger_id) {
         return service.deletePassenger(passenger_id);
