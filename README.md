@@ -9,8 +9,7 @@ This is the final project for **QA Software Specialism Bootcamp**.
 - SQL / MySQL
 - Git / Github
 
-## Application
-### Screenshots showing postman requests and the output from the API
+## Screenshots showing postman requests and the output from the API
 - /addPassenger *(Add a new passenger)*
 
 ![Screenshot 2022-10-28 at 12 13 02 pm](https://user-images.githubusercontent.com/87975970/198574138-fe9b9f9d-0c4c-47c2-be76-a0f1f1a2d749.png)
@@ -33,7 +32,7 @@ This is the final project for **QA Software Specialism Bootcamp**.
 
 ![Screenshot 2022-10-28 at 12 24 15 pm](https://user-images.githubusercontent.com/87975970/198576018-dbaea1fe-897e-464e-8d7f-98920b23607e.png)
 
-### Screenshots of the database to prove that data is being persisted
+## Screenshots of the database to prove that data is being persisted
 
 ![Screenshot 2022-10-28 at 12 35 12 pm](https://user-images.githubusercontent.com/87975970/198578044-5abcafe4-12b2-45b3-81ff-01e6be15f7e5.png)
 
