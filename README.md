@@ -14,6 +14,10 @@ This is the final project for **QA Software Specialism Bootcamp**.
 
 ![Screenshot 2022-10-28 at 12 13 02 pm](https://user-images.githubusercontent.com/87975970/198574138-fe9b9f9d-0c4c-47c2-be76-a0f1f1a2d749.png)
 
+### /addPassengers *(Add multiple passengers)*
+
+![Screenshot 2022-10-28 at 12 46 56 pm](https://user-images.githubusercontent.com/87975970/198580162-07f3f185-855f-419e-9b05-0f47d1f990b8.png)
+
 ### /passenger *(Get all passengers)*
 
 ![Screenshot 2022-10-28 at 12 14 23 pm](https://user-images.githubusercontent.com/87975970/198574556-a8b36d58-ccc3-46d4-b48f-0e70a6983ea4.png)
