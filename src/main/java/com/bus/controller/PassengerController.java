@@ -13,6 +13,8 @@ public class PassengerController {
     @Autowired
     private PassengerService service;
 
+
+    // Add Passenger or Multiple Passengers
     @PostMapping("/addPassenger")
     public Passenger addPassenger(@RequestBody Passenger passenger) {
         return service.savePassenger(passenger);
@@ -23,11 +25,15 @@ public class PassengerController {
         return service.savePassengers(passengers);
     }
 
+
+    // Get all Passengers
     @GetMapping("/passengers")
     public List<Passenger> findAllPassengers() {
         return service.getPassengers();
     }
 
+
+    // Get Passenger by ID
     @GetMapping("/passengerById/{passenger_id}")
     public Passenger findPassengerById(@PathVariable int passenger_id) {
         return service.getPassengerById(passenger_id);
