@@ -1,6 +1,9 @@
 # bus-booking
 
-This is the final project for **QA Software Specialism Bootcamp**.
+## Why are we doing this?
+
+This is the final project for **QA Software Specialism Bootcamp** created by **Ernestas Panfilovas**. This simple Bus Booking application will allow users(passengers) to purchase one or multiple bus tickets.
+
 
 ## Technologies used
 - Java
@@ -38,6 +41,10 @@ This is the final project for **QA Software Specialism Bootcamp**.
 
 ## Screenshots of the database to prove that data is being persisted
 
-![Screenshot 2022-10-28 at 12 35 12 pm](https://user-images.githubusercontent.com/87975970/198578044-5abcafe4-12b2-45b3-81ff-01e6be15f7e5.png)
+<img width="727" alt="Screenshot 2022-10-28 at 1 27 34 pm" src="https://user-images.githubusercontent.com/87975970/198586826-0f80cf3c-ade0-4337-8173-b1f4a8e69d21.png">
+
+## ERD Diagram
+
+<img width="561" alt="Screenshot 2022-10-28 at 1 25 19 pm" src="https://user-images.githubusercontent.com/87975970/198586457-9d2670f4-88ad-4c53-a589-9989162deffd.png">
 
 
