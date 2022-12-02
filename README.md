@@ -1,10 +1,5 @@
 # bus-booking
 
-## Why are we doing this?
-
-This is the final project for **QA Software Specialism Bootcamp** created by **Ernestas Panfilovas**. This simple Bus Booking application will allow users(passengers) to purchase one or multiple bus tickets.
-
-
 ## Technologies used
 - Java
 - Spring Boot
